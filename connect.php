@@ -3,10 +3,13 @@ $dsn="mysql:host=localhost;charset=utf8;dbname=y_ledger";
 $pdo=new PDO($dsn,'root','');
 
 
-// $range=(isset($_GET['id']))?$_GET['id']:20;
+$range=(isset($_GET['id']))?$_GET['id']:4;
+// $range=$_GET['id'];
+// $range=5;
+
 
 // $sql="select * from `ledger` where `id`< $range";
-$sql="select * from `ledgers` where `id`< 7";
+$sql="select * from `ledgers` where `id`<  $range";
 $rows=$pdo->query($sql)->fetchAll();
 
 // echo $rows;
@@ -69,4 +72,4 @@ foreach($rows as $row){
 
 
 ?>
-</table> -->
+</table>
