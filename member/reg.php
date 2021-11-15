@@ -16,7 +16,7 @@
 <table>
     <tr>
         <td>帳號:</td>
-        <td><input type="text" name="accout" id=""></td>
+        <td><input type="text" name="account" id=""></td>
     </tr>
     <tr>
         <td>密碼:</td>
