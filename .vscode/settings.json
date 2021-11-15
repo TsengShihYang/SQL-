@@ -1,0 +1,17 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showExpandedAbbreviation": "always",
+    "emmet.showAbbreviationSuggestions": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "php.validate.executablePath": "C:/xampp/php/php.exe",
+    "files.autoSave": "afterDelay",
+    "workbench.commandPalette.history": 100,
+    "workbench.startupEditor": "welcomePage",
+    "editor.fontSize": 16,
+    "explorer.confirmDragAndDrop": false,    
+    "liveServer.settings.donotShowInfoMsg": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "liveServer.settings.donotVerifyTags": true,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1
+}
