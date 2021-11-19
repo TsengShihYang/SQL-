@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 // $account=$_POST['account'];
 // $password=$_POST['password'];
 
@@ -17,9 +17,12 @@ $result=$pdo->query($sql)->fetchColumn();
 
 // echo $result['account'];
 // echo $result['password'];
-
+echo $result;
 if($result>0){
-    header('location:../memcenter.php);
+
+    $_SESSION['user']=
+    header("location:../memcenter.php?=user".$_POST['account']);
+    // header("location:../memcenter.php?user".$_POST['account']);
 }else{
     header('location:../index.php?err=1');
 }

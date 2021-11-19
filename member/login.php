@@ -1,4 +1,10 @@
      
+<?php
+session_start();
+
+?>
+ 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +20,7 @@
  
  <?php include "./include/sidebar.php";?>
 <div class="content">
-<form action="./api/check_login.php" method="$_POST">
+<form action="./api/check_login.php" method="POST">
 <table id="loginForm">
     <tr>
         <td colspan="='2">會員登入</td>

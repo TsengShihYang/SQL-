@@ -24,8 +24,8 @@ $pdo=new PDO($dsn,'root','');
 $pdo->exec($sql_account);
 $pdo->exec($sql_member);
 
-header("../location:index.php");
-
+header("location:../index.php");
 
 
 ?>
+

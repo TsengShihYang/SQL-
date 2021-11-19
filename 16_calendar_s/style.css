@@ -1,0 +1,79 @@
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(212, 231, 238);
+    text-align: center;
+    background-image: url(./images/winter.jpg);
+    background-size:cover ;
+}
+h1 {
+    text-align: center;
+}
+
+.dayoff {
+    color:red
+}
+
+.birthday {
+    /* background-color: lightblue; */
+    color: red;
+}
+
+
+.calendar {
+    width: 352px;
+    height: 352px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    justify-content: start;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 30px gray;
+    background-image: url(./images/012.jpg);
+    align-items: center;
+    
+}
+.weekname{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    text-align: center;
+    align-self:center;
+    margin-top: 5px;
+    color:khaki;
+    /* line-height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+
+.updown{
+    display: flex;
+    justify-content:space-evenly;
+    font-family: 'Microsoft JhengHei';
+    font-size: 18px;
+    font-style:oblique;
+    text-decoration:none;
+}
